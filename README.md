@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Smart Parking System
 
-## Getting Started
+A full-stack parking management application built to handle real-time slot booking and administration. The system allows users to find and reserve parking slots, while admins can manage availability, pricing, and monitor usage.
 
-First, run the development server:
+---
 
-```bash
+Live Demo
+
+https://smart-parking-system-qvr1.vercel.app
+
+---
+
+Repository
+
+https://github.com/akshayaabandhanadham/smart-parking-system
+
+---
+
+Admin Access
+
+Email: admin@gmail.com
+Password: admin123
+
+---
+
+What this project does
+
+- Shows real-time parking slot availability
+- Lets users book and exit slots
+- Calculates parking cost based on time
+- Provides an admin panel to manage slots
+- Handles authentication using JWT
+- Includes a basic AI assistant for queries (with fallback logic)
+
+---
+
+Tech Stack
+
+Frontend: Next.js, React, Tailwind CSS
+Backend: Next.js API Routes
+Database: MongoDB with Mongoose
+Authentication: JSON Web Tokens (JWT)
+Deployment: Vercel
+
+---
+
+Running locally
+
+Clone the repo:
+
+git clone https://github.com/akshayaabandhanadham/smart-parking-system.git
+cd smart-parking-system
+
+Install dependencies:
+
+npm install
+
+Create a ".env.local" file:
+
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+
+Start the server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The project is deployed on Vercel.
+Environment variables are configured through the Vercel dashboard and not stored in the repository.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+Notes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- This is a demo project, so admin credentials are predefined
+- In a real system, authentication would be fully dynamic and secure
+- Sensitive data is handled through environment variables
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Akshaya Bandhanadham
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub: https://github.com/akshayaabandhanadham
+LinkedIn: https://linkedin.com/in/akshayabandhanadham
