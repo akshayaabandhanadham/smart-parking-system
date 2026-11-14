@@ -37,7 +37,7 @@ What this project does
 Tech Stack
 
 Frontend: Next.js, React, Tailwind CSS
-Backend: Next.js API Routes
+Backend: Java, Next.js API Routes
 Database: MongoDB with Mongoose
 Authentication: JSON Web Tokens (JWT)
 Deployment: Vercel
